@@ -1,3 +1,4 @@
+'''
 #27. Python Arithmetic Operators
 
 x = 7
@@ -113,3 +114,32 @@ print(not(4 == 4 and 5 == 5 ))
 print("not False is")
 print(not(4 != 4 and 5 != 5 ))
 
+#31. Identity Operator
+fruits = ["grapes","berries"]
+my_fruits = ["grapes","berries"]
+fav_fruits = fruits
+print("fruits is fav_fruits {}".format(fruits is fav_fruits))
+print("fruits is my_fruits {}".format(fruits is my_fruits))
+
+x = ["5"]
+y = ["5"]
+z = x
+a = 5
+b = 5
+print(x is y)
+print(x is z)
+print(a is b)
+
+
+#32 Membership Operator
+fruits = ["grapes","berries"]
+print("\"apples\" not in fruits {}".format("apples" not in fruits))
+print("\"pinaple\" in fruits {}".format("pinaple" not in fruits))
+''' 
+
+#33 Binary Number
+#34 Bit-wise 
+
+print(bin(0b1011 & 0b1101))
+print(bin(0b1001 | 0b0110))
+print(bin(~0b10))
